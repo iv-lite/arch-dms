@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+
+export packages="\
+    dkms \
+    linux-headers \
+    linux-firmware \
+    mkinitcpio-firmware \
+    ddcci-driver-linux-dkms \
+    zsh \
+    vim \
+    dgop \
+    dsearch \
+    matugen \
+    xwayland-satellite \
+    niri \
+    qt6-multimedia \
+    dms-shell-bin \
+    i2c-tools \
+    wl-clipboard \
+    noto-fonts \
+    ttf-font-awesome-5 \
+    ttf-roboto-mono \
+    ttf-roboto \
+    wayland-protocols \
+    bluez \
+    bluez-utils \
+    blueman \
+    blueberry \
+    polkit \
+    polkit-gnome \
+    xdg-desktop-portal \
+    xdg-desktop-portal-gtk \
+    xdg-desktop-portal-gnome \
+    network-manager-applet \
+    cliphist \
+    logiops \
+    ghostty \
+    nautilus \
+    direnv \
+    gnome-keyring \
+    gcr-4 \
+    visual-studio-code-bin \
+    greetd \
+    greetd-regreet \
+    cmake \
+    meson \
+    cpio \
+    cliphist \
+    papirus-icon-theme \
+    wlr-protocols \
+    cava \
+    clamav \
+    python-fangfrisch \
+    clamtk \
+    mission-center
+    "
