@@ -5,10 +5,10 @@
   "author": "iv-lite",
   "description": "Lite Nord theme",
   "dark": {
-    "primary": "#81a1c1",
+    "primary": "#eceff4",
     "primaryText": "#2e3440",
-    "primaryContainer": "#88c0d0",
-    "secondary": "#b48ead",
+    "primaryContainer": "#454d5f",
+    "secondary": "#454d5f",
     "surface": "#2b303c",
     "surfaceText": "#eceff4",
     "surfaceVariant": "#434c5e",
