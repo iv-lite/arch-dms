@@ -193,20 +193,20 @@
   "browserPickerViewMode": "grid",
   "browserUsageHistory": {
     "firefox": {
-      "count": 1,
-      "lastUsed": 1772131914544,
+      "count": 3,
+      "lastUsed": 1772139857808,
       "name": "Firefox"
     }
   },
   "appPickerViewMode": "grid",
   "filePickerUsageHistory": {},
   "sortAppsAlphabetically": false,
-  "appLauncherGridColumns": 4,
+  "appLauncherGridColumns": 5,
   "spotlightCloseNiriOverview": true,
   "spotlightSectionViewModes": {},
   "appDrawerSectionViewModes": {},
   "niriOverviewOverlayEnabled": true,
-  "dankLauncherV2Size": "compact",
+  "dankLauncherV2Size": "micro",
   "dankLauncherV2BorderEnabled": false,
   "dankLauncherV2BorderThickness": 2,
   "dankLauncherV2BorderColor": "primary",
@@ -421,9 +421,30 @@
       ],
       "showOnLastDisplay": true,
       "leftWidgets": [
-        "launcherButton",
-        "workspaceSwitcher",
-        "focusedWindow"
+        {
+          "id": "cpuTemp",
+          "enabled": true,
+          "minimumWidth": true
+        },
+        {
+          "id": "memUsage",
+          "enabled": true,
+          "minimumWidth": true
+        },
+        {
+          "id": "cpuUsage",
+          "enabled": true,
+          "minimumWidth": true
+        },
+        {
+          "id": "diskUsage",
+          "enabled": true,
+          "mountPath": "/"
+        },
+        {
+          "id": "focusedWindow",
+          "enabled": true
+        }
       ],
       "centerWidgets": [
         "music",
@@ -433,11 +454,15 @@
       "rightWidgets": [
         "systemTray",
         "clipboard",
-        "cpuUsage",
-        "memUsage",
         "notificationButton",
-        "battery",
-        "controlCenterButton"
+        {
+          "id": "controlCenterButton",
+          "enabled": true,
+          "showAudioPercent": true,
+          "showBrightnessIcon": true,
+          "showScreenSharingIcon": false,
+          "showVpnIcon": false
+        }
       ],
       "spacing": 23,
       "innerPadding": 20,
@@ -468,7 +493,7 @@
       "maximizeWidgetText": false,
       "shadowColorMode": "surface",
       "widgetOutlineEnabled": false,
-      "iconScale": 0.8
+      "iconScale": 1
     }
   ],
   "desktopClockEnabled": false,

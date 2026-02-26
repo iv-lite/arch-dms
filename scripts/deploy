@@ -8,7 +8,7 @@ sudo localectl set-keymap --no-convert fr_CH
 
 cp -a ./home/. ${HOME}/
 
-# sudo cp -r ./etc/greetd /etc/
+sudo cp -r ./etc/greetd /etc/
 
 sudo cp -r ./etc/pam.d/greetd /etc/pam.d/greetd
 
@@ -38,6 +38,6 @@ sudo systemctl enable clamav-daemon.service
 sudo systemctl enable fangfrisch.timer
 
 systemctl --user enable gcr-ssh-agent.socket
-# sudo systemctl enable greetd.service --force
+sudo systemctl enable greetd.service --force
 sudo systemctl enable bluetooth.service
 sudo systemctl enable logid.service
