@@ -1,4 +1,15 @@
+// Include dms files
 include "dms/colors.kdl"
 include "dms/layout.kdl"
 include "dms/alttab.kdl"
 include "dms/binds.kdl"
+include "dms/outputs.kdl"
+include "dms/cursor.kdl"
+
+include "includes/input.kdl"
+include "includes/outputs.kdl"
+include "includes/binds.kdl"
+include "includes/layout.kdl"
+include "includes/misc.kdl"
+include "includes/windows.kdl"
+include "includes/animations.kdl"

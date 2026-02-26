@@ -14,7 +14,10 @@ export packages="\
     xwayland-satellite \
     niri \
     qt6-multimedia \
+    adw-gtk-theme \
+    qt6ct-kde \
     dms-shell-bin \
+    greetd-dms-greeter-git \
     i2c-tools \
     wl-clipboard \
     noto-fonts \
@@ -40,8 +43,6 @@ export packages="\
     gnome-keyring \
     gcr-4 \
     visual-studio-code-bin \
-    greetd \
-    greetd-regreet \
     cmake \
     meson \
     cpio \
