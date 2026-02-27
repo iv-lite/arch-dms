@@ -41,3 +41,8 @@ systemctl --user enable gcr-ssh-agent.socket
 sudo systemctl enable greetd.service --force
 sudo systemctl enable bluetooth.service
 sudo systemctl enable logid.service
+
+gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+gsettings set org.gnome.desktop.interface font-name 'Roboto Mono'
+dconf write /org/gnome/desktop/interface/color-scheme '\"prefer-dark\"'
