@@ -283,12 +283,7 @@
   "wifiNetworkPins": {},
   "bluetoothDevicePins": {},
   "audioInputDevicePins": {},
-  "audioOutputDevicePins": {
-    "preferredOutput": [
-      "bluez_output.14:3F:A6:26:B8:81",
-      "alsa_output.usb-Generic_USB_Audio-00.HiFi__Speaker__sink"
-    ]
-  },
+  "audioOutputDevicePins": {},
   "gtkThemingEnabled": false,
   "qtThemingEnabled": false,
   "syncModeWithPortal": true,
