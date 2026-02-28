@@ -16,6 +16,7 @@ export packages="\
     qt6-multimedia \
     adw-gtk-theme \
     qt6ct-kde \
+    ddcutil \
     dms-shell-bin \
     greetd-dms-greeter-git \
     i2c-tools \
